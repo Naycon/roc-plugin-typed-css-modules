@@ -14,7 +14,12 @@
   ],
   "keywords": [
     "roc",
-    "roc-plugin"
+    "roc-plugin",
+    "typescript",
+    "css modules",
+    "typings",
+    "generate",
+    "typed-css-modules"
   ],
   "repository": {
     "type": "git",
