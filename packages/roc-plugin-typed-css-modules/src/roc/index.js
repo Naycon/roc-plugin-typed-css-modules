@@ -6,5 +6,15 @@ import { name } from './util';
 export default {
     name,
     config,
-    meta
+    meta,
+    actions: {
+        typedCssModules: {
+            hook: 'add-style',
+            description: 'generates typescript definition files for your css files.',
+            action: () => () => () => () => ({
+                extensions: ['css'],
+                loaders: `${require.resolve('typed-css-modules-loader')}`
+            })
+        }
+    }
 };
