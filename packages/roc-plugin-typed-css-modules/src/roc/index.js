@@ -16,5 +16,8 @@ export default {
                 loaders: `${require.resolve('typed-css-modules-loader')}`
             })
         }
+    },
+    required: {
+        'roc-plugin-typescript': '^1.0.3'
     }
 };
