@@ -18,6 +18,7 @@ export default {
         }
     },
     required: {
-        'roc-plugin-typescript': '^1.0.3'
+        'roc-plugin-typescript': '^1.0.3',
+        'roc-plugin-style-css': '^1.0.0-alpha.3'
     }
 };
