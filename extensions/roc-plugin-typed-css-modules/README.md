@@ -35,9 +35,6 @@ when trying to compile the file that is referencing the CSS file. Right now, the
 solution is unfortunately to rerun the build (or, in development, restart the dev
 server).
 
-It also seems necessary to use ES5 as the compile target for the typescript compiler,
-or webpack won't be able to pick up the references to the CSS files.
-
 For more on these issues, see [this discussion.](https://github.com/Quramy/typed-css-modules/issues/2)
 
 ## Documentation
