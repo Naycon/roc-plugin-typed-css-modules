@@ -3,6 +3,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
+    "start": "rid",  
     "rid": "rid",
     "build": "rid build",
     "clean": "rid clean",
@@ -12,6 +13,6 @@
     "test": "npm run lint"
   },
   "devDependencies": {
-    "@rocjs/roc-internal-dev": "^1.0.0"
+    "@rocjs/roc-internal-dev": "^2.0.2"
   }
 }

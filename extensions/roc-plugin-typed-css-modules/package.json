@@ -26,7 +26,6 @@
     "url": "https://github.com/Naycon/roc-plugin-typed-css-modules"
   },
   "dependencies": {
-    "roc": "1.0.0-rc.10",
     "typed-css-modules": "^0.1.12",
     "typed-css-modules-loader": "0.0.3"
   },
@@ -34,5 +33,10 @@
     "babel-eslint": "~5.0.0",
     "eslint": "~1.10.3",
     "eslint-config-vgno": "~5.0.0"
+  },
+  "roc": {
+    "plugins": [
+      "./lib/index.js"
+    ]
   }
 }
