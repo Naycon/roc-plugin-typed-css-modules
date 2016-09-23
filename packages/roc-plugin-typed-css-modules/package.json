@@ -26,7 +26,7 @@
     "url": "https://github.com/Naycon/roc-plugin-typed-css-modules"
   },
   "dependencies": {
-    "roc": "^1.0.0-rc.10",
+    "roc": "1.0.0-rc.10",
     "typed-css-modules": "^0.1.12",
     "typed-css-modules-loader": "0.0.3"
   },
