@@ -42,11 +42,11 @@ export default {
         description: 'generates typescript definition files for your css files.',
         action: () => () => () => ({
             extensions: ['css'],
-            loaders: require.resolve('typed-css-modules-loader')
-        })
+            loaders: require.resolve('typed-css-modules-loader'),
+        }),
     }],
     required: {
         'roc-plugin-typescript': '^2.0.0-alpha',
-        'roc-plugin-style-css': '^1.0.0-beta.2'
-    }
+        'roc-plugin-style-css': '^1.0.0-beta.2',
+    },
 };
