@@ -15,7 +15,7 @@ definition files are generated until you reference a style in your css file:**
 ```javascript
 import * as React from 'react';
 // It's not enough to just import the style...
-import * as styles from './style.scss';
+import * as styles from './style.scss';
 
 export const MyReactComponent = () => (
 // ...you need to reference it as well before the plugin will kick in and generate type definitions!
