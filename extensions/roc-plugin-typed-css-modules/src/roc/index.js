@@ -1,4 +1,5 @@
 export default {
+    name: 'roc-plugin-typed-css-modules',
     description: `
     A roc plugin to enable the typed-css-modules, which generates typescript definition
     files for your css files.
